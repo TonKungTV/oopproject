@@ -1,0 +1,81 @@
+{
+    "bills": [
+        {
+            "date": "Tue Oct 15 01:23:44 ICT 2024",
+            "totalAmount": 15.0,
+            "billNumber": 2,
+            "products": [
+                {
+                    "quantity": 1,
+                    "price": 15.0,
+                    "name": "Soda"
+                }
+            ]
+        }
+    ],
+    "customers": [
+        {
+            "purchaseHistory": [
+                {
+                    "date": "2024-10-01T10:00:00Z",
+                    "totalAmount": 4.48,
+                    "billNumber": 1001
+                }
+            ],
+            "wallet": 9999.0,
+            "name": "MeMee",
+            "isMember": true,
+            "membershipId": "1234",
+            "points": 100
+        }
+    ],
+    "employees": [
+        {
+            "name": "View",
+            "employeeId": "E001",
+            "position": "Cashier",
+            "workShifts": [
+                {
+                    "date": "2024-10-01",
+                    "shift": "09:00-17:00"
+                }
+            ]
+        }
+    ],
+    "salesReports": {
+        "bestSellingProducts": [
+            {
+                "name": "BangKarim",
+                "quantitySold": 20
+            }
+        ],
+        "dailyIncome": 500.0,
+        "customerCount": 50
+    },
+    "products": [
+        {
+            "quantity": 50,
+            "price": 20.0,
+            "name": "Chips",
+            "type": "SNACK"
+        },
+        {
+            "quantity": 30,
+            "price": 15.0,
+            "name": "Soda",
+            "type": "DRINK"
+        },
+        {
+            "quantity": 10,
+            "price": 45.0,
+            "name": "Kapao",
+            "type": "FOOD"
+        },
+        {
+            "quantity": 80,
+            "price": 20.0,
+            "name": "Lays",
+            "type": "SNACK"
+        }
+    ]
+}
